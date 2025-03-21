@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>My Second Web Dev Assignment</title>
+        </head>
+        <body>
+            <h2>Ordered Lists</h2>
+            <ol type="i" start="i">
+                <li>Nyeri</li>
+                <li>Gatundu</li>
+                <li>Migori</li>
+                <li>Mombasa</li>
+                <li>Nairobi</li>
+            </ol>
+            <h2>Images</h2>
+            <h3>External Images</h3>
+            <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" 
+                alt="Image of adorable dogs" width="300" height="200">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Emails</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kristian Stovek</td>
+                        <td>Nakuru</td>
+                        <td>0712545698</td>
+                        <td>stovek@outmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Maureen Wawira</td>
+                        <td>Nairobi</td>
+                        <td>0712345678</td>
+                        <td>maureen@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>John Nyanema</td>
+                        <td>Kisii</td>
+                        <td>0710101230</td>
+                        <td>Nyanema1@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Gracie Abrahams</td>
+                        <td>Mombasa</td>
+                        <td>0712345678</td>
+                        <td>abrahams@yahoo.com</td>
+                    </tr>
+                    <tr>
+                        <td>Rita Expedite</td>
+                        <td>Kajiado</td>
+                        <td>0742347678</td>
+                        <td>ReDX@gmail.com</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Emails</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <h2>HTML Forms</h2>
+            <!-- start of form -->
+            <form>
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" required placeholder="Your Full Name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="johndoe@example.com">
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <br><br>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Your address" required>
+                <br><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="male"> Male
+                <br><br>
+                <label for="Course">Courses</label>
+                <input type="checkbox" name="Course" value="Agriculture"> Agriculture
+                <input type="checkbox" name="Course" value="Engineering"> Engineering
+                <input type="checkbox" name="Course" value="Medicine"> Medicine
+                <input type="checkbox" name="Course" value="Economics"> Economics
+                <input type="checkbox" name="Course" value="IT"> IT
+                <br><br>
+                <label>Country</label>
+                <select name="country" id="country">
+                    <option>--Select Country--</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Tanzania">Tanzania</option>
+                </select>
+                <br><br>
+                <button type="submit">Submit</button>
+                <input type="reset" value="Cancel/Reset">
+            </form>
+           <!-- end of form -->
+        </body>
+    </html>
